@@ -3,12 +3,12 @@ import { createRef } from "preact";
 import { Button } from "../components/Button.tsx";
 import { TextArea } from "../components/TextArea.tsx";
 
-export default function Counter() {
+export default function YamlToTs() {
   const [yaml, setYaml] = useState("");
   const [ts, setTS] = useState("");
   const tsRef = createRef();
   const trans = async () => {
-    const res = await fetch("/api/joke", {
+    const res = await fetch("/api/trans", {
       method: "POST",
       body: JSON.stringify({
         "yaml": yaml,
@@ -18,12 +18,13 @@ export default function Counter() {
     setTS(data);
   };
   const copy = () => {
-    if (!tsRef.current) {
+    if (!tsRef.current || !tsRef.current.base) {
       alert("No current");
       return;
     }
+    const node = tsRef.current.base;
     const range = document.createRange();
-    range.selectNode(tsRef.current);
+    range.selectNode(node);
     const selection = window.getSelection()!;
     if (selection.rangeCount > 0) selection.removeAllRanges();
     selection.addRange(range);

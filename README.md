@@ -1,5 +1,7 @@
 # yaml to TS web
 
+see on <https://yaml-to-ts.deno.dev/>
+
 ### Usage
 
 Start the project:

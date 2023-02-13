@@ -1,6 +1,7 @@
 import { useState } from "preact/hooks";
 import { Button } from "../components/Button.tsx";
 import { TextArea } from "../components/TextArea.tsx";
+import ArrowIcon from "icons/arrow-big-right.tsx";
 
 export default function YamlToTs() {
   const [yaml, setYaml] = useState("");
@@ -31,6 +32,9 @@ export default function YamlToTs() {
           onChange={(e) => setYaml(e.currentTarget.value)}
         >
         </TextArea>
+        <div class="flex items-center">
+          <ArrowIcon alt="Deno logo" class="w-8 h-8" />
+        </div>
         <TextArea
           readonly
           placeholder="TypeScript Interface"

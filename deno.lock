@@ -105,6 +105,7 @@
     "https://deno.land/x/rutt@0.0.13/mod.ts": "af981cfb95131152bf50fc9140fc00cb3efb6563df2eded1d408361d8577df20",
     "https://deno.land/x/sha1@v1.0.3/deps.ts": "2e1af51a48c8507017fdb057b950366601b177fb7e73d5de54c1b3e0e115d72e",
     "https://deno.land/x/sha1@v1.0.3/mod.ts": "146a101c9776cc9c807053c93f23e4b321ade5251f65745df418f4a75d5fd27b",
+    "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/arrow-big-right.tsx": "f2b639d70cc60a3edd6fc3ca314c628025eabbfe429f2edff7c007fbe38cd61b",
     "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-deno.tsx": "7039d2d2fe90cf2a86a42cdc559b52df0dbe776b01e570efa12b82fba914fad8",
     "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-github.tsx": "583c14b1fcea8a5fb3caf390516d252f8093a97d2bf2554a121f2dcbd648b401",
     "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/lemon-2.tsx": "c1909ec8026465db54b4aef9f473525965497e48dd443de343be2a94e14a93d1",

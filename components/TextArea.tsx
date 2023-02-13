@@ -8,7 +8,7 @@ export function TextArea(props: JSX.HTMLAttributes<HTMLTextAreaElement>) {
       disabled={!IS_BROWSER || props.disabled}
       rows={20}
       cols={50}
-      class="px-2 py-1 mx-5 border-solid border-2 border-indigo-600 rounded-md"
+      class="px-2 py-1 mx-3 border-solid border-2 border-indigo-600 rounded-md"
     />
   );
 }

@@ -1,4 +1,4 @@
-# yaml to TS web
+# Yaml to TS web
 
 see on <https://yaml-to-ts.deno.dev/>
 

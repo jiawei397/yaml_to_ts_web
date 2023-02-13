@@ -1,15 +1,15 @@
-import { Head } from "$fresh/runtime.ts";
+import Footer from "../components/Footer.tsx";
+import Header from "../components/Header.tsx";
 import YamlToTs from "../islands/YamlToTs.tsx";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Yaml to TypeScript interface</title>
-      </Head>
+      <Header />
       <div class="p-4 w-full">
         <YamlToTs />
       </div>
+      <Footer />
     </>
   );
 }
